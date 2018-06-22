@@ -1,0 +1,105 @@
+body {
+    background-color: grey;
+    box-sizing: border-box;
+} 
+
+h1 {
+    text-align: center;
+    width: 100%;
+    margin: 50px 0;
+}
+
+.breeds {
+    text-align: center;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.breed {
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10%;
+    width: 25%;
+    background-color: rgb(163, 157, 157);
+    transition: ease-in-out 500ms;
+}
+
+.imgclass {
+    height: auto;
+    width: 100%;
+    border-radius: 25%;
+}
+
+.breedimg {
+    height: auto;
+}
+
+.breedname {
+    font-size: 36px;
+    width: 100%;
+    text-align: left;
+    display: inline-block; 
+    overflow-wrap: break-word;
+}
+
+.breeddes {
+    text-align: left;
+    display: inline-block; 
+    width: 100%;
+    padding-top: 5px;
+}
+
+/* Highlights */
+.input-form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-form > div {
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 15%;
+}
+
+.newbreedname, .newbreeddes, .newbreedpic {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.newbreedname:focus, .newbreeddes:focus, .newbreedpic:focus {
+    background-color: rgb(252, 195, 109);
+}
+
+.breedinsert {
+    margin-top: 10px;
+    background-color: blanchedalmond;
+    color: #000000;
+    font-size: 16px;
+    float: right;
+    border: none;
+    padding: 7px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.breedinsert:hover {
+    background-color: rgb(252, 195, 109);
+}
+
+.breedinsert:active {
+    background-color: bisque;
+}
+
+.breed:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 0px 30px blue;
+}
